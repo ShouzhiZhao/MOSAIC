@@ -1,4 +1,4 @@
-include LICENSE NOTICE.md CITATION.cff RELEASE.md
+include LICENSE NOTICE.md CITATION.cff docs/RELEASE.md
 include constraints-py312.txt
 include assets/mosaic-overview.png assets/promosim-protocol.png assets/caso-architecture.png
 include assets/acceptance-comparison.png assets/policy-runtime.png

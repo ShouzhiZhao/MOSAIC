@@ -5,9 +5,11 @@ and the three processed input CSVs listed in `data/manifest.json`. It does not
 distribute collected LLM trajectories, fitted models, content embeddings,
 paper experiment outputs, private experiment drivers, or local regression tests.
 Building a wheel or source archive also excludes those private modules.
-See `NOTICE.md` and `data/SOURCES.md` for attribution and data provenance.
+See [NOTICE.md](../NOTICE.md) and [data/SOURCES.md](../data/SOURCES.md) for attribution and data provenance.
 
 ## Environment and installation
+
+Run the commands below from the repository root.
 
 The reference environment is Linux with Python 3.12 and PyTorch 2.9.1+cu130.
 The package declares Python >=3.10; other Python/CUDA combinations have not

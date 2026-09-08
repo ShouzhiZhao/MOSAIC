@@ -1,6 +1,6 @@
 # PromoSim: behavioral simulation and policy replay
 
-[Project overview](../../README.md) · [CASO guide](../caso/README.md) · [Data contracts](../../data/README.md) · [Release notes](../../RELEASE.md)
+[Project overview](../../README.md) · [CASO guide](../caso/README.md) · [Data contracts](../../data/README.md) · [Release notes](../../docs/RELEASE.md)
 
 PromoSim models content consumption through interacting social and recommendation channels. LLM-based agents use profiles, memories, and observations to choose bounded actions. A dynamic SimGCL recommender and social messages update the context available to later decisions.
 
@@ -31,7 +31,7 @@ Install a CUDA-compatible PyTorch build, then the PromoSim extra in a dedicated 
 python -m pip install -c constraints-py312.txt -e '.[promosim]'
 ```
 
-The reference dependency stack is documented in [RELEASE.md](../../RELEASE.md#environment-and-installation). PromoSim uses LangChain 0.0.352 and Pydantic 1; sharing its environment with applications requiring Pydantic 2 can cause conflicts.
+The reference dependency stack is documented in [release notes](../../docs/RELEASE.md#environment-and-installation). PromoSim uses LangChain 0.0.352 and Pydantic 1; sharing its environment with applications requiring Pydantic 2 can cause conflicts.
 
 ### LLM service
 

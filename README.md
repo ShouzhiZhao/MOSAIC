@@ -6,7 +6,7 @@
 
 Simulate content adoption. Learn from behavioral evidence. Select initial promoters.
 
-[Quick start](#quick-start) · [Workflow](#workflow) · [Results](#results-reported-in-the-paper) · [Release notes](RELEASE.md) · [Citation](#citation-and-license)
+[Quick start](#quick-start) · [Workflow](#workflow) · [Results](#results-reported-in-the-paper) · [Release notes](docs/RELEASE.md) · [Citation](#citation-and-license)
 
 </div>
 
@@ -83,7 +83,7 @@ The example demonstrates the interfaces with synthetic data and short training r
 | PromoSim generation and policy evaluation | `python -m pip install -c constraints-py312.txt -e '.[promosim]'` | CUDA and an LLM backend |
 | Learned neural baselines | Core package; external weights for S2V-DQN and ToupleGDD | CUDA required |
 
-PromoSim uses an older LangChain/Pydantic stack; keep it in a dedicated virtual environment. See [RELEASE.md](RELEASE.md) for environment details and artifact requirements.
+PromoSim uses an older LangChain/Pydantic stack; keep it in a dedicated virtual environment. See [release notes](docs/RELEASE.md) for environment details and artifact requirements.
 
 ## Workflow
 
@@ -115,7 +115,7 @@ Each invocation samples one previously unused seed condition with a budget from 
 
 Run generation repeatedly to collect multiple conditions for each training movie. Training needs enough conditions for nonempty training and validation sets—at least two per included movie. A single generation command does not construct the paper's training corpus.
 
-To explicitly resume an interrupted condition, rerun the same command with `--resume-condition <condition-id>`. Input hashes and configuration must match. New versioned conditions enter training after all requested replays complete; see [recovery and integrity details](RELEASE.md#replay-integrity-and-recovery).
+To explicitly resume an interrupted condition, rerun the same command with `--resume-condition <condition-id>`. Input hashes and configuration must match. New versioned conditions enter training after all requested replays complete; see [recovery and integrity details](docs/RELEASE.md#replay-integrity-and-recovery).
 
 ### 2. Encode content features
 
@@ -304,9 +304,10 @@ mosaic/
 baselines/                # Topology, diffusion, and learned comparators
 data/promosim/            # Three bundled input CSVs
 assets/                   # README figures based on the manuscript
+docs/                     # Release notes and environment details
 ```
 
-CI checks lint, compilation, packaging, and the installed CPU example. Release boundaries, dependency details, archive migration, and recovery behavior are documented in [RELEASE.md](RELEASE.md).
+CI checks lint, compilation, packaging, and the installed CPU example. Release boundaries, dependency details, archive migration, and recovery behavior are documented in [release notes](docs/RELEASE.md).
 
 | Guide | What it covers |
 | --- | --- |

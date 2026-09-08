@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software release when using MOSAIC or CASO."
+type: software
+title: "MOSAIC: Behavioral Simulation and Content-Aware Seed Optimization"
+authors:
+  - name: "ShouzhiZhao"
+    website: "https://github.com/ShouzhiZhao"
+version: "0.3.0"
+license: MIT
+abstract: "PromoSim behavioral simulation and CASO content-aware seed optimization."
+repository-code: "https://github.com/ShouzhiZhao/MOSAIC"

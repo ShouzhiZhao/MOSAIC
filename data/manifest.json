@@ -1,0 +1,56 @@
+{
+  "format": "mosaic-input-manifest-v1",
+  "files": [
+    {
+      "path": "promosim/item.csv",
+      "sha256": "5a2a96e52fb8d930f85cee4b3ec8fb0eefd9d2f5521ec55800786cddb089f707",
+      "bytes": 650868,
+      "rows": 3883,
+      "columns": [
+        "id",
+        "title",
+        "genre",
+        "description"
+      ],
+      "included": true
+    },
+    {
+      "path": "promosim/user_1000.csv",
+      "sha256": "4d387eb8529ec4782f689d33dde4f5dd145e66036ca9495bd9ba743eca8b0108",
+      "bytes": 146296,
+      "rows": 1000,
+      "columns": [
+        "id",
+        "name",
+        "gender",
+        "age",
+        "traits",
+        "status",
+        "interest",
+        "feature",
+        "group"
+      ],
+      "included": true
+    },
+    {
+      "path": "promosim/relationship_1000.csv",
+      "sha256": "e1f92701c0eacca37b2b55296e69aa0ff2adffd34fe1ae8ea1c4cd98cecac9e7",
+      "bytes": 617001,
+      "rows": 20846,
+      "columns": [
+        "user_1",
+        "user_2",
+        "relationship",
+        "closeness"
+      ],
+      "included": true
+    }
+  ],
+  "excluded": [
+    "behavioral trajectories",
+    "embeddings and FAISS indexes",
+    "trained CASO weights",
+    "baseline checkpoints",
+    "paper experiments and results"
+  ]
+}

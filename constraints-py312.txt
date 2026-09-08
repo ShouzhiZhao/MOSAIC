@@ -1,0 +1,27 @@
+# Linux / Python 3.12 reference constraints for the public core and PromoSim extras.
+# Tested with PyTorch 2.9.1+cu130. Install the appropriate PyTorch wheel first.
+# This pins the main runtime/tooling stack; it is not a hash-locked dependency closure.
+torch==2.9.1
+numpy==1.26.4
+pandas==2.3.3
+networkx==3.5
+scipy==1.14.1
+sentence-transformers==3.4.1
+transformers==4.49.0
+dill==0.4.1
+faiss-cpu==1.9.0.post1
+langchain==0.0.352
+langchain-core==0.1.23
+langchain-experimental==0.0.47
+openai==1.109.1
+pydantic==1.10.26
+PyYAML==6.0.3
+requests==2.32.5
+scikit-learn==1.6.1
+tqdm==4.70.0
+yacs==0.1.8
+packaging==23.2
+setuptools==70.2.0
+build==1.2.2.post1
+pytest==8.4.2
+ruff==0.16.6

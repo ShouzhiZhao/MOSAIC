@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints and models
+/models/
+*/checkpoints/
+*.pth
+checkpoints/
+
+# Data files
+real_data/raw_data/
+simulation_data/
+data/promosim/interaction.csv
+data/promosim/faiss_index/
+data/promosim/ckpt/
+data/promosim_records/
+data/archive/
+propagation_analysis/
+reference/
+visualization/
+毕业设计-经济管理学院/
+毕业设计-经济管理学院.zip
+
+# Generated results
+artifacts/
+output/
+real_data/results/
+*.png
+*.gif
+!asserts/
+!asserts/*.png
+!/assets/mosaic-overview.png
+!/assets/promosim-protocol.png
+!/assets/caso-architecture.png
+!/assets/acceptance-comparison.png
+!/assets/policy-runtime.png
+baselines/results/
+baselines/plot_*.py
+deepim/results/
+deepim/results_finetune/
+deepim/results_finetuned/
+deepim/results_flow_compare/
+deepim/checkpoints_flow/
+deepim/compare_and_plot.py
+deepim/generate_paper_figures.py
+deepim/finetune_gamma*.py
+
+# Environment
+.venv/
+.venv-promosim/
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+run_analysis.sh
+run_simulation_1.sh
+
+# FAISS index
+*/faiss_index/
+
+# GPT2 model files
+recagent/gpt2/
+
+# Simulation agent data and output
+recagent/data/
+recagent/output/
+recagent/simulation_data/
+*.egg-info/
+dist/
+build/
+
+# Local manuscript, experiments, and orchestration are outside the core release.
+/paper/
+/tests/
+/experiments/
+/data/*
+!/data/README.md
+!/data/SOURCES.md
+!/data/manifest.json
+!/data/promosim/
+/mosaic/caso/adaptation.py
+/mosaic/caso/training.py
+/mosaic/caso/two_stage_training.py
+/mosaic/promosim/collection.py
+/mosaic/promosim/collection_worker.py
+/mosaic/promosim/COLLECTION.md
+/run_promosim_collection.sh
+# Binary artifacts are shared separately from source.
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.pdf
+*.log
+.ruff_cache/
+.pytest_cache/

@@ -1,0 +1,21 @@
+include LICENSE NOTICE.md CITATION.cff RELEASE.md
+include constraints-py312.txt
+include assets/mosaic-overview.png assets/promosim-protocol.png assets/caso-architecture.png
+include assets/acceptance-comparison.png assets/policy-runtime.png
+include assets/SOURCES.md
+include baselines/README.md mosaic/caso/README.md mosaic/promosim/README.md
+include data/README.md data/SOURCES.md data/manifest.json
+include data/promosim/item.csv data/promosim/user_1000.csv data/promosim/relationship_1000.csv
+prune tests
+prune experiments
+prune paper
+prune baselines/checkpoints
+prune baselines/results
+global-exclude *.pt *.pth *.ckpt *.npz *.npy *.pyc *.log
+exclude baselines/plot_*.py
+exclude mosaic/promosim/COLLECTION.md
+exclude mosaic/caso/adaptation.py
+exclude mosaic/caso/training.py
+exclude mosaic/caso/two_stage_training.py
+exclude mosaic/promosim/collection.py
+exclude mosaic/promosim/collection_worker.py

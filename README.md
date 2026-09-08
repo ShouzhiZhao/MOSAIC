@@ -316,10 +316,6 @@ CI checks lint, compilation, packaging, and the installed CPU example. Release b
 | [Baselines](baselines/README.md) | Algorithm selection, graph assumptions, checkpoints, and policy exports |
 | [Data](data/README.md) | CSV schemas, movie/user identity, replay archives, and content catalogs |
 
-## Contributor
-
-[ShouzhiZhao](https://github.com/ShouzhiZhao), the owner of this repository.
-
 ## Citation and license
 
 Use [CITATION.cff](CITATION.cff) for the software citation. The associated manuscript is titled *Generative Agents as Counterfactual Research Infrastructure: Rehearsing Content-Seeding Interventions on Digital Platforms*.

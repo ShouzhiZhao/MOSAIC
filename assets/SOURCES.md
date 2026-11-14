@@ -5,7 +5,7 @@ The overview, CASO architecture, replay protocol, and runtime chart are PNG rend
 | Public asset | Local source | Source SHA-256 |
 | --- | --- | --- |
 | `mosaic-overview.png` | `paper/figure/MOSAIC.pdf` | `42785947e5ac31258d04019b4a22ad8c3cd9aacdb4a699337e1df05af65a084e` |
-| `caso-architecture.png` | `paper/figure/CASO.pdf` | `90ba878eda030d338d3898d046ba8eb51a568d54f1efb22c3429106907a2d087` |
+| `caso-architecture.png` | `paper/figure/CASO.pdf` | `34bcd6c530e1f5340a9e07ab41074f05a18a92eb0ce8023329defbc14517bd50` |
 | `promosim-protocol.png` | `paper/figure/PromoSim.pdf` | `0baa40f7afdcb35437a7fb314cb7f1fc50d5752538105fd9c0cf0842ddbc338f` |
 | `policy-runtime.png` | `paper/figure/isr/fig23_runtime_comparison.pdf` | `ad049cf88b3e241b2ee2ec2979648e9e4a1ee92a08b5f66f62fa1efa0d9c72fc` |
 
